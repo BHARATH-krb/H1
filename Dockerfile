@@ -1,5 +1,3 @@
-FROM ubuntu
+FROM python:3
 COPY . .
-RUN apt update
-RUN apt install python
 CMD ["python", "abc.py"]
